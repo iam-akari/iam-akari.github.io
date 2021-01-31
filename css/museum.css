@@ -12,8 +12,6 @@ body {
 h1 {
   display: inline-block;
   text-align: center;
-  
-  
 }
 span {
   color: orange;
@@ -51,43 +49,39 @@ span {
   opacity: .5;
 }
 
-main {
-  background: #ffe6fa;
-  height: 480px;
-}
+/* ここから */
 
-h2 {
-  display: inline-block;
-  margin-top: 0;
-  width: 150px;
-  line-height: 48px;
-  margin-top: 32px;
-  margin-left: 48px;
-  margin-bottom: 0;
-  text-align: center;
-  font-size: 28px;
-}
-
-main img {
+h1.contents {
   display: block;
-  width: 200px;
-  height: 200px;
-  border-radius: 10%;
+  text-align: center;
+  margin-bottom: 64px;
+} 
+
+main {
+  margin-right: 10px;
+  margin-left: 10px; 
+
+}
+main h1 {
+  display: block;
+  text-align: left;
+  
+}
+
+
+
+main.container {
+  display: block;
+  width: 90%;
   margin: auto;
-  box-shadow: 0px 10px 20px -5px rgba(0,0,0,0.3);
+
+}
+main img {
+  width: 80%;
+  height: 300px;
 }
 
-.contents p {
-  text-align: center;
-  margin-bottom: 24px ;
-}
-
-.list1 p {
-  text-align: center;
-  margin: 0;
-}
-
-footer {
-  height: 50px;
-  background: maroon;
+p {
+  width: 80%;
+  margin-bottom: 48px;
 }
